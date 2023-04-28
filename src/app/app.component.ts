@@ -89,5 +89,7 @@ export class AppComponent implements OnInit {
 
   deleteProgress(i: number) {
 
+    this.progressTask.splice(i,1);
+
   }
 }
